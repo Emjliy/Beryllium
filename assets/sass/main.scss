@@ -4,13 +4,22 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-.nav-link{
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.nav-link {
     letter-spacing: 0.1ch;
 }
-.navbar-nav{
-    text-align: right;
- 
-}
-.nav-item dropdown{
 
+.navbar-nav {
+    text-align: right;
+}
+
+.dropdown-item {
+    text-align: right;
+    color: lightgrey;
+    text-align: center;
 }
