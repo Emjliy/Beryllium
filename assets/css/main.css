@@ -1,1 +1,53 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+* a {
+  text-decoration: none;
+  color: black;
+}
+
+* a:hover {
+  color: red !important;
+}
+
+nav ul li {
+  padding: 20px 10px;
+  font-size: 13px;
+  color: #D4D6D6;
+  letter-spacing: .08em;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  list-style: none;
+}
+
+nav ul li:hover {
+  color: black;
+}
+
+nav ul li .down-arrow {
+  display: contents;
+}
+
+nav ul li .drp-dwn-ul {
+  position: absolute;
+  z-index: 2;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+nav ul li li {
+  padding: 5px 0;
+  color: #D4D6D6;
+}
+
+nav ul li li:hover {
+  color: white;
+}
+/*# sourceMappingURL=main.css.map */
