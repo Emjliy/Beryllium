@@ -20,6 +20,7 @@
 }
 
 .dropdown-item {
+  z-index: 1;
   text-align: right;
   color: lightgrey;
   text-align: center;

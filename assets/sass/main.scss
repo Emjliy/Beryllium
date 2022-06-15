@@ -19,6 +19,7 @@
 }
 
 .dropdown-item {
+    z-index: 1;
     text-align: right;
     color: lightgrey;
     text-align: center;
@@ -27,4 +28,7 @@
 text-align: start;
 font-weight: 400;
 font-size: 40px;
+}
+.work-header{
+
 }
