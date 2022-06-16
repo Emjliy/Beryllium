@@ -42,4 +42,19 @@
         font-size: 40px;
     }
 }
-
+.work-items{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .work-item-cart{
+    background-color: rgb(255, 255, 255);
+    width: calc(100%/33);
+    width: 350px;
+    height: 450px;
+  
+  img{
+    width: 100%;
+  }
+  }

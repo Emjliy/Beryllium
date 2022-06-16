@@ -14,6 +14,13 @@
 //         }
 //     }
 // })
-$(document).ready(function(){
-    $(".owl-carousel").owlCarousel();
-  });
+$(document).ready(function () {
+    $('.work-items').slick({
+    infinite: true,
+     dots: true,
+    slidesToShow: 3,
+     autoplay: true,
+    autoplaySpeed: 2000,
+    slidesToScroll: 3
+  })
+   });
