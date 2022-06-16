@@ -5,6 +5,11 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.row {
+    margin-left: -45px;
+    margin-right: -15px;
+}
+
 .navbar-brand {
     font-size: 20px;
     font-weight: bolder;
@@ -19,16 +24,30 @@
 }
 
 .dropdown-item {
-    z-index: 1;
     text-align: right;
     color: lightgrey;
     text-align: center;
 }
-.carousel-caption h5{
-text-align: start;
-font-weight: 400;
-font-size: 40px;
-}
-.work-header{
 
+.carousel-caption h5 {
+    text-align: start;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.work-header {
+    margin: 30px 60px;
+    color: rgb(77, 75, 75);
+    h2 {
+        font-size: 40px;
+    }
+}
+
+// .work-header-description{
+//     margin-top: 20px;
+//     font-size: 19px;
+// }
+.work-carousel{
+    display:  flex;
+    justify-content: space-between;
 }
