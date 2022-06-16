@@ -45,12 +45,13 @@
   font-size: 40px;
 }
 
-.work-carousel {
+.card-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+}
+
+.card {
+  width: 70%;
 }
 /*# sourceMappingURL=main.css.map */
